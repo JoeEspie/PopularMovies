@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
     defaultConfig {
-        applicationId "com.example.android.popularmovies"
+        applicationId "com.example.android.popularmovies.app"
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
@@ -18,7 +18,7 @@ android {
         }
     }
     buildTypes.each {
-        it.buildConfigField 'String', 'THE_MOVIE_DATABASE_API_KEY', '\"APIKEY\"'
+        it.buildConfigField 'String', 'THE_MOVIE_DATABASE_API_KEY', '\"54e5a8aea28f8c460681b622d0de00a9\"'
     }
 }
 
